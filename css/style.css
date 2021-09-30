@@ -1,0 +1,39 @@
+/* @import url(../fonts/AdobeArabic-Bold.otf); */
+@font-face {
+  font-family: "CustomFont";
+  src: url(../fonts/DroidNaskh-Regular.ttf);
+}
+@font-face {
+  font-family: "Notoserf";
+  src: url(../fonts/NotoSerif-Black.ttf);
+}
+
+/* ============global==================== */
+* {
+  text-transform: capitalize;
+}
+body {
+  background-color: black;
+}
+#mycanvas {
+  width: 1500px;
+  height: 700px;
+  border: 4px solid green;
+}
+
+.box {
+  position: fixed;
+  width: 100px;
+  height: 100px;
+  background-color: rgb(245, 220, 244);
+  z-index: 999;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.box1 {
+  left: 15%;
+}
+.box2 {
+  left: 85%;
+}
